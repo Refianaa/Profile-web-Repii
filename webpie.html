@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="webpie.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">PORTO<span>FOLIO.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Buka menu">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="intro">HALO, SAYA ADALAH</p>
+            <h1> <span>Eyippina</span></h1>
+            <h2>Pelajar & Web Developer</h2>
+
+            <p class="description">
+                Saya senang membuat website kreatif, modern,
+                dan responsif menggunakan teknologi web.
+                Selamat datang di portofolio saya!
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">Lihat Proyek</a>
+                <a href="#contact" class="btn btn-outline">
+                    Hubungi Saya
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="image-circle">
+                <div class="avatar">👨‍💻</div>
+            </div>
+            <div class="floating-card">
+                <span>💻</span> Creative Developer
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang -->
+    <section class="section about" id="about">
+        <p class="section-label">KENALI SAYA</p>
+        <h2 class="section-title">Tentang<span>Saya</span></h2>
+
+        <div class="about-content">
+            <div class="about-box">
+                <h3>Siapa Saya?</h3>
+                <p>
+                    Saya adalah seorang pelajar yang tertarik pada
+                    dunia teknologi, pemrograman, dan desain digital.
+                    Saya terus belajar untuk mengembangkan kemampuan
+                    dan membuat karya yang bermanfaat.
+                </p>
+            </div>
+
+            <div class="about-box">
+                <h3>Tujuan Saya</h3>
+                <p>
+                    Mengembangkan kreativitas, mempelajari teknologi
+                    baru, dan membangun proyek digital yang menarik
+                    serta mudah digunakan.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keahlian -->
+    <section class="section skills" id="skills">
+        <p class="section-label">APA YANG SAYA KUASAI</p>
+        <h2 class="section-title"> keahlian <span> saya</span></h2>
+
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>HTML</h3>
+                <p>Membangun struktur website.</p>
+                <div class="progress">
+                    <span style="width: 85%"></span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>CSS</h3>
+                <p>Mendesain tampilan website.</p>
+                <div class="progress">
+                    <span style="width: 75%"></span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">⚡</div>
+                <h3>JavaScript</h3>
+                <p>Membuat website interaktif.</p>
+                <div class="progress">
+                    <span style="width: 60%"></span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🖌️</div>
+                <h3>UI/UX Design</h3>
+                <p>Membuat desain antarmuka.</p>
+                <div class="progress">
+                    <span style="width: 70%"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyek -->
+    <section class="section projects" id="projects">
+        <p class="section-label">HASIL KARYA</p>
+        <h2 class="section-title">Proyek <span>Saya</span></h2>
+
+        <div class="project-container">
+            <article class="project-card">
+                <div class="project-visual visual-one">01</div>
+                <div class="project-info">
+                    <h3>Website Portofolio</h3>
+                    <p>Website pribadi untuk menampilkan profil.</p>
+                    <span class="tag">HTML · CSS · JS</span>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-visual visual-two">02</div>
+                <div class="project-info">
+                    <h3>Aplikasi To-Do List</h3>
+                    <p>Aplikasi sederhana untuk mengatur tugas.</p>
+                    <span class="tag">JavaScript</span>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-visual visual-three">03</div>
+                <div class="project-info">
+                    <h3>Desain UI/UX</h3>
+                    <p>Konsep desain antarmuka aplikasi modern.</p>
+                    <span class="tag">UI/UX Design</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section class="section contact" id="contact">
+        <p class="section-label">MARI TERHUBUNG</p>
+        <h2 class="section-title">Hubungi <span>Saya</span></h2>
+        <p class="contact-text">
+            Punya ide atau ingin berkolaborasi? Kirim pesan!
+        </p>
+
+        <form id="contactForm">
+            <input type="text" id="name"
+                   placeholder="Eyippina" required>
+
+            <input type="email" id="email"
+                   placeholder="ppiyana@gmail.com" required>
+
+            <textarea id="message" rows="5"
+                      placeholder="Tulis pesan..." required></textarea>
+
+            <button type="submit" class="btn">
+                Kirim Pesan ↗
+            </button>
+        </form>
+
+        <p id="formMessage" aria-live="polite"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> Eyippina.
+           Dibuat dengan ❤️ dan JavaScript.</p>
+    </footer>
+
+    <script src="webpie.js"></script>
+</body>
+</html>
